@@ -313,6 +313,11 @@ Inside the loop, the program sets the title variable to the job position that th
 
 The PDF() function is called to create a new PDF object with the applicant's contact details, job position, and formatted response text. 
 
+You will be prompted to edit the content of your cover letter in the Text editor window:
+<img width="960" alt="editing view example" src="https://user-images.githubusercontent.com/47111504/223970660-40615795-9346-4e15-966b-c50022e2f022.png">
+
+The job description in the terminal window will serve as a guide to correct any misunderstandings ChatGPT may have created.
+
 The fictional example provided here produced several cover letters, including this example:
 ![John Doe Cover Letter 1](https://user-images.githubusercontent.com/47111504/223879485-941eec5a-68c4-4b05-b56c-d91e14789fe2.png)
 
