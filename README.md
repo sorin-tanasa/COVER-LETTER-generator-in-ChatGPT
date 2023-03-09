@@ -319,6 +319,7 @@ You will be prompted to edit the content of your cover letter in the Text editor
 The job description in the terminal window will serve as a guide to correct any misunderstandings ChatGPT may have created.
 
 The fictional example provided here produced several cover letters, including this example:
-![John Doe Cover Letter 1](https://user-images.githubusercontent.com/47111504/223879485-941eec5a-68c4-4b05-b56c-d91e14789fe2.png)
+![John Doe Cover Letter 1](https://user-images.githubusercontent.com/47111504/223974646-9b3b86a7-f817-4d43-aa9d-326bd0715248.png)
+
 
 Overall, the complete program can save a lot of time for job applicants who need to generate multiple cover letters with similar content. By automating the process, the program allows applicants to focus on customizing the response text for each job application.
