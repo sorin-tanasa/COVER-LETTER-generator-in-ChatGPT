@@ -292,7 +292,8 @@ header="              John Doe    |   (555) 555-5555   |   john.doe@gmail.com   
 path=r'C:\*****************\CL writer'
 
 counter=0
-for response,desc in zip(cover_letters, JOB_DESCRIPTIONS): # note: JOB_DESCRIPTIONS will be replaced here with the "df" dataframe in case of automated input
+for response,desc in zip(cover_letters, JOB_DESCRIPTIONS): # note: JOB_DESCRIPTIONS will be replaced here with the "df.iloc[:,job description column int]"
+                                                           # dataframe in case of automated input
     counter+=1
     title = 'Application for the Data Analyst position'
     x=text_message = response[0]['choices'][0]['message']['content']
