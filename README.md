@@ -74,7 +74,7 @@ def text_editor(txt):
     return newtext
 ```
 
-The other object we need is the PDF class objet, based on the FPDF package. There, we need to define several functions that dictate aspects of the PDF template:
+The other tool we need is the PDF class object, based on the FPDF package. There, we need to define several functions that dictate aspects of the PDF template:
 
 ```python
 class PDF(FPDF):
@@ -151,9 +151,8 @@ class PDF(FPDF):
        
         # Adding graphics
         self.rect(10, 21, 190, 0.5, style='F')
-
-
 ```
+
 The PDF class is a subclass of the FPDF class and it provides a customized way of generating a PDF document. The class takes four required arguments head, titl, txt and pth, which are used to set the header, title, path and content of the document respectively. Here is a brief description of the methods in the PDF class:
 
 * __init__(self, head, titl, txt, pth, *args, **kwargs): This is the constructor method of the class, which sets the details, title, text and save path attributes. It also calls the constructor of the parent class FPDF and passes any additional arguments and keyword arguments to it.
