@@ -43,7 +43,7 @@ import pandas as pd
 
 ```
 
-We will later on depend on a set of functions to create the cover letter. First, we need a function that opens an editing window, called "text_editor". This is because, as we know, ChatGPT doe not provide 100% accurate results. This function contains a nested function, save_text, which performs said task once you are satisfied with the content.
+We will later on depend on a set of functions to create the cover letter. First, we need a function that opens an editing window, called "text_editor". This is because, as we know, ChatGPT does not provide 100% accurate results. This function contains a nested function, save_text, which performs said task once you are satisfied with the content.
 
 
 ```python
