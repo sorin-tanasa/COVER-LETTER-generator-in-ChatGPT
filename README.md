@@ -323,6 +323,3 @@ The fictional example provided here produced several cover letters, including th
 
 
 Overall, the complete program can save a lot of time for job applicants who need to generate multiple cover letters with similar content. By automating the process, the program allows applicants to focus on customizing the response text for each job application.
-
-
-a little change
